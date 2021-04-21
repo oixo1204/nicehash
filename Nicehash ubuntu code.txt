@@ -1,0 +1,161 @@
+
+--------------------------------------------------------------------------------
+
+Hello  Guys  Welcome  to  my  channel,
+
+Today we are going to install Nicehash Software on Ubuntu/Linux Server...
+
+All  Commands  are  given  in Description... 
+
+
+
+
+
+________________  NOW   FOLLOW   MY   STEPS   Carefully _____________________
+
+
+install ubuntu server
+
+i am using vultr server
+
+Now Open Server Console
+
+
+
+
+
+
+______________  Now   Paste   and   Run   All   Commands   as   it   is  ___________________
+
+sudo apt-get update 
+
+sudo apt-get upgrade
+
+
+
+
+
+
+_______________________ install wine Sowtware _______________________ 
+
+       ( Wine is used for installing Windows Softwares on Linux OS )
+
+_______________ Here are the commands for installing Wine ____________________
+
+
+lscpu              // check your system config
+
+sudo apt install wine64     
+
+sudo apt install wine32
+
+wine --version
+
+sudo dpkg --add-architecture i386 
+
+wget -nc https://dl.winehq.org/wine-builds/winehq.key
+
+sudo apt-key add winehq.key
+
+sudo add-apt-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ groovy main' 
+
+sudo apt update
+
+sudo apt install --install-recommends winehq-stable
+
+sudo reboot
+
+*****************   Here  Wine  is  Successfully  installed  ******************
+
+
+
+
+
+
+___________________   Now install Ubuntu GUI Desktop  _____________________
+
+sudo apt update
+
+sudo apt upgrade
+
+sudo add-apt-repository universe
+
+sudo add-apt-repository multiverse
+
+sudo apt install tasksel
+
+sudo tasksel
+
+
+(select ubuntu desktop from list)           
+//   Press   Spacebar   to   Select   the   Option
+//   Then   Press   TAB   Button
+//   Then   Press   Enter  
+
+
+it will take some time ...
+
+
+
+
+sudo reboot                          //   reboot   server
+
+
+
+
+
+
+
+_______________________ install .NET framework 4.8 _______________________
+
+sudo apt-get install winetricks
+
+winetricks dotnet48
+
+// it will take 10-15 minutes for installation...
+
+
+
+
+
+
+_______________________ after installation Reboot the VPS _______________________ 
+
+sudo reboot
+
+
+
+
+_______________________ Now Download Nicehash Software _______________________
+                                                        & Save to Desktop                                                                          
+
+After Downloading
+
+Open Nicehash Setup using Wine...
+                       
+
+
+
+
+_______________________ install nicehash miner _______________________
+
+it will take some time ...
+
+
+
+
+
+ **************  Here Nicehash successfully installed  **************  
+
+
+
+
+
+
+
+
+  thanks for watching  
+
+  hit the like button & Subscribe to my Channel   
+
+  if you have any doubt than leave comment...   
